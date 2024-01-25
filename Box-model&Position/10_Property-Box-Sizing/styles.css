@@ -5,3 +5,10 @@ div {
   border: 8px solid blue;
   background: coral;
 }
+
+.border-box{
+  box-sizing: border-box;
+}
+.content-box{
+  box-sizing: content-box;
+}
