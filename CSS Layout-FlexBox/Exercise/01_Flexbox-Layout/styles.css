@@ -1,0 +1,39 @@
+html{
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+}
+
+body{
+    background-color: #EEE;
+    width: 100vw;
+    height: 100vh;
+    padding: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+header, main, aside, footer{
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 0.4rem;
+    color: #000;
+    border: 2px solid #000;
+}
+header, footer {
+    flex-basis: 100%;
+}
+
+main{
+    flex: 8 1 40rem;
+    width: 60%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+aside{
+    flex: 2 1 20rem;
+    width: 40%;
+    height: auto;
+}
