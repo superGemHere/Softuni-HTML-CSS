@@ -4,14 +4,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calendar</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            padding: 2em;
+        }
+        
+        .container {
+            display: flex;
+            max-width: 65vw;
+            margin: 0 auto;
+        }
+
+        section{
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        section span:nth-child(1),
+        section span:nth-child(7) {
+            flex: 1 0 100%;
+        }
+        span{
+            flex-grow: 1;
+            display: block;
+            border: 1px solid black;
+            padding: 2em;
+            text-align: center;
+        }
+
+        /* body{
+            width: 70vw;
+            height: auto;
+            padding: 2em;
+            font-size: 1.2em;
+        }
+
+        
+        div, section {
+            display: flex;
+            align-items: center;
+        }
+        .container {
+            max-width: 65vw;
+        }
+
+        span{
+            border: 1px solid black
+        }
+
+        .week {
+            flex-wrap: wrap;
+        }
+
+        .week span {
+            padding: 2.3em;
+        }
+
+        .week span:nth-child(1){
+            flex: 1 0 100%;
+        }
+        .week span:nth-child(-n + 5){
+            color: red;
+        }
+        .week span:nth-child(7){
+            flex: 1 0 100%;
+        }
+        .week span:nth-child(8),
+        .week span:nth-child(9){
+           width: 50%;
+        }
+
+        .notes{
+            flex-direction: column;
+        }
+
+        .notes span{
+            flex: 1 1 100%;
+        } */
+    </style>
 </head>
 <body>
     <div class="container">
         <section class="week">
-
+            <span>Workweek</span>
+            <span>1 Monday</span>
+            <span>2 Thuesday</span>
+            <span>3 Wednesday</span>
+            <span>4 Thursday</span>
+            <span>5 Friday</span>
+            <span>Weekend</span>
+            <span>6 Saturday</span>
+            <span>7 Sunday</span>
         </section>
         <section class="notes">
-
+            <span>REMINDERS</span>
+            <span>SPECIAL DATES</span>
         </section>
     </div>
 </body>
