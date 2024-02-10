@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font: 18px/1.5rem  'sans-serif';
+}
+
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    padding: 0.3rem;
+    gap: 1.3em;
+}
+
+header { 
+    padding: 50px;
+    background: #B7D9FD;
+    border-radius: 0.2em;
+}
+
+header p {
+   font-size: 2em;
+   font-weight: bold;
+}
+
+.hero{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 100%;
+    gap: 1.3em;
+}
+
+aside{
+    display: inline-flex;
+    flex: 1 1 10%;
+    padding: 1em 2em 2em 1em;
+    background: #B7D9FD;
+    border-radius: 0.2em;
+}
+
+aside li {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    list-style: none;
+}
+
+aside a {
+    text-decoration: none;
+}
+
+main{
+    display: inline-flex;
+    flex: 1 1 calc(90% - 2em);
+    padding: 2em;
+    flex-direction: column;
+    background: #B7D9FD;
+    border-radius: 0.2em;
+    
+}
+
+main > p {
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 3em;
+}
+
+main ul{
+    padding-left: 2em;
+}
+
+footer{
+    background: #B7D9FD;
+    border-radius: 0.2em;
+}
+
+@media all and (max-width: 640px) {
+    header {
+        padding: 2em;
+    }
+
+    main {
+        padding: 1em;
+    }
+
+    main > p {
+        font-size: 2em;
+        font-weight: bold;
+        line-height: 1.5em;
+    }
+
+
+    .hero{
+        flex-direction: column;
+    }
+
+}
