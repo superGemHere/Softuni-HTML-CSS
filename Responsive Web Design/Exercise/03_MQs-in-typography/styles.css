@@ -1,12 +1,85 @@
-
-
-
-
-.img-container{
-    max-width: 200px;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-.img-container img{
+
+html{
+    font: 16px/1.5 sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    width: 70vw;
+    margin: 0 auto;
+    height: 100vh;
+    gap: 1em;
+}
+
+header{
+    display: block;
+    border-bottom: 2px SOLID black;
+}
+
+header p{
+    font-size: 4em;
+    font-weight: lighter;
+}
+
+section{
+    width: 100%;
+}
+
+section p {
+    margin-bottom: 20px;
+}
+
+.author > p {
+    float: right;
+}
+
+
+.img-container, .img-container2{
+    display: flex;
+    max-width: 100px;
+    background-color: #fff;
+    inset: 0;
+    /* box-shadow: ; */
+    padding: 7px;
+    border: 2px solid black;
+    top: 0;
+    box-shadow:  0px 0px 20px rgb(0, 0, 0, 0.2);
+}
+.img-container img, .img-container2 img{
     width:100%;
     height: auto;
+
+}
+
+.img-container{
+    float: right;
+    margin: 0 0 10px 10px;
+}
+.img-container2{
+    float: left;
+    margin: 10px 20px 0px 0px;
+}
+
+.author{
+    width: 50%;
+    padding-left: 30px;
+    color: rgb(0, 0, 0, 40%);;
+    margin-left: 20px ;
+    border-left: 2px solid rgb(0, 0, 0, 20%);
+    /* background-color: #eee; */
+    float: right;
+    
+}
+
+.author > p{
+    float: right;
 }
 
