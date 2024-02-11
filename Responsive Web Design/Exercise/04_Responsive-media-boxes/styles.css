@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(238, 238, 238);
+    width: 100vw;
+    padding: 2em;
+}
+
+.card{
+    display: flex;
+    max-width: 400px;
+    flex-direction: column;
+    background: rgb(255, 255, 255);
+    border-radius: 0.3em;
+}
+.card img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.3em 0.3em 0 0;
+}
+
+.insights{
+    padding: 1.5em;
+}
+
+.insights h3{
+    font: bold 1em/2em 'Georgia', 'serif';
+}
+
+.insights p{
+    font: 14px/1.2 Helvetica, sans-serif;
+}
+
+.insights a {
+    padding: 0.5em;
+    float: right;
+    text-decoration: none;
+    border-radius: 0.2em;
+    color: #fff;
+    background: rgb(0, 153, 0);
+}
