@@ -74,7 +74,7 @@ nav ul li a {
     width: 60%;
     height: 25%;
     align-items: center;
-    justify-content: space-between;
+    gap:  10rem;
 }
 
 .websiteNeed h2{
@@ -97,7 +97,7 @@ nav ul li a {
 }
 
 .icon{
-    font-size: 8em;
+    font-size: 14rem;
 }
 
 .team{
