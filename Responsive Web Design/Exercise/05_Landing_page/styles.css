@@ -13,7 +13,7 @@ body{
     display: flex;
     padding-top: 2em;
     max-width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     flex-direction: column;
     align-items: center;
     gap: 3em;
@@ -174,4 +174,47 @@ margin: 2em 0;
     font-style: italic;
     width: 30ch;
     text-align: center;
+}
+
+
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    width: 100%;
+    height: 12rem;
+    background-color: #673479;
+}
+.newsletter h1{
+   color: white;
+   font: 2em/1em serif;
+   position: relative;
+}
+.newsletter h1::after{
+    content: "";
+    position: absolute;
+    width: 30%;
+    height: 1px;
+    bottom: -20px;
+    left: 35%;
+    border-bottom: 3px solid black;
+}
+
+.newsletter form{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    justify-content: center;
+    width: 100%;
+}
+
+#newsletter-input{
+    width: 15%;
+    height: 1.9rem;
+}
+
+.newsletter input[type=submit]{
+    padding: 0.3em;
 }
