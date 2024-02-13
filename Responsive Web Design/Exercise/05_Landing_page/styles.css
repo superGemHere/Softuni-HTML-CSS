@@ -227,3 +227,80 @@ margin: 2em 0;
 .newsletter input[type=submit]{
     padding: 0.3em;
 }
+
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    width: 80%;
+}
+
+.testimonials h2{
+    font: 3em/1.5em serif;
+    /* text-decoration: underline;
+    text-underline-offset: 30px; */
+    position: relative;
+}
+.testimonials h2::after{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: -20px;
+    left: 25%;
+    border-bottom: 4px solid black;
+}
+
+.testimonialContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    width: 100%;
+}
+
+.testimonialCard{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    width: 33%;
+    height: fit-content;
+    gap: 1em;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 2em 0;
+}
+
+.testimonialCard .selfie {
+    display: block;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonialCard .selfie img {
+    width: 100%;
+    height: 100% ;
+    border-radius: 50%;
+    box-shadow: -1px 2px 20px rgba(0, 0, 0, 0.3);
+    outline: 3.5px solid rgba(255, 255, 255, 0.5);
+    outline-offset: -3.5px;
+    object-fit: cover;
+}
+
+.name-position{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonialCard p:nth-child(1){
+    font-weight: bold;
+}
+
+.testimonialCard #testimonialQuote{
+    font-style: italic;
+    width: 31ch;
+    text-align: center;
+}
