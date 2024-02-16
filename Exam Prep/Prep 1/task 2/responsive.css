@@ -1,5 +1,17 @@
 
 
 @media all and (max-width: 600px){
-    
+
+   .home-navbar header .home-navbar1{
+    display: none;
+   } 
+
+   .category-card-category-card{
+    flex: 1 0 45%;
+   }
+
+   .category-card-category-card img {
+    width: 100%;
+    aspect-ratio: 1/1;
+   }
 }
