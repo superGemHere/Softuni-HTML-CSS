@@ -2,16 +2,128 @@
 
 @media all and (max-width: 600px){
 
-   .home-navbar header .home-navbar1{
-    display: none;
-   } 
-
-   .category-card-category-card{
-    flex: 1 0 45%;
+   body {
+      /* font-size: 12px; */
    }
 
-   .category-card-category-card img {
-    width: 100%;
-    aspect-ratio: 1/1;
+   .home-container{
+      padding-top: 0;
+   }
+
+   .home-navbar{
+      position: static;
+   }
+
+   .home-header{
+     padding: 5px 0;
+   }
+
+   .home-navbar1{
+      display: none;
+   }
+
+   .home-main{
+      padding-bottom: 2em;
+   }
+
+   .section-container{
+      padding-top: 0px;
+   }
+
+   .max-width-container{
+      margin-bottom: 2em;
+   }
+
+   .section-heading-section-heading{
+      margin-top: 2.5em;
+   }
+
+   .section-heading-text {
+      
+   }
+
+   .section-heading-text span {
+      font-size: 20px;
+   }
+
+   .section-heading-text1{
+      font-size: 13px;
+   }
+
+   .section-heading-text1 span{
+
+   }
+
+   .home-cards-container{
+      flex: 1 1 auto;
+      grid-gap: 14px;
+   }
+
+   .category-card-category-card{
+      flex: 1 1 45%;
+   }
+
+   .category-card-category-card img{
+     width: 100%;
+     height: auto;
+     aspect-ratio: 1/1;
+   }
+
+   .home-full-width-banner{
+      flex-direction: column;
+   }
+
+   .home-left4{
+      flex: 1 1 100%;
+      padding: 2em 0.5em;
+   }
+
+   .home-content{
+      flex: 1 1 100%;
+   }
+
+   .home-text30{
+      width: 100%;
+   }
+
+   .home-image6{
+      width: 100%;
+      height: auto;
+      aspect-ratio: 1/1;
+   }
+
+   .section-heading-section-heading.section-heading-root-class-name{
+      margin-top: 0;
+   }
+   
+   .home-container08{
+      flex: 1 1 100%;
+   }
+
+   .blog-post-card-blog-post-card {
+      max-width: 100%;
+   }
+
+   .blog-post-card-blog-post-card img {
+      height: auto;
+   }
+
+   .home-footer1{
+      flex-direction: column;
+      padding: 3em 0 0 0;
+      gap: 2em;
+   }
+
+   .home-container09{
+      order: 1000;
+   }
+
+   .home-links-container{
+      flex-direction: column;
+      line-height: 1.5;
+   }
+
+   .home-text38, .home-text51{
+      font-weight: bold;
    }
 }
